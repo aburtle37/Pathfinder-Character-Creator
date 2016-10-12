@@ -1,0 +1,38 @@
+﻿<Window x:Class="CharacterCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CharacterCreator"
+        xmlns:name="CCMainWindow"
+        mc:Ignorable="d"
+        Title="Character Creator" Height="433.671" Width="683.951" ResizeMode="CanMinimize">
+    <Grid>
+        <ComboBox x:Name="raceBox" HorizontalAlignment="Left" Margin="48,194,0,0" VerticalAlignment="Top" Width="120" DropDownClosed="raceBox_DropDownClosed"/>
+        <ComboBox x:Name="classBox" HorizontalAlignment="Left" Margin="318,194,0,0" VerticalAlignment="Top" Width="120" DropDownClosed="classBox_DropDownClosed"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="125" Margin="16,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="125" Margin="286,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342"/>
+        <RadioButton x:Name="radioButton" Content="Male" HorizontalAlignment="Left" Margin="173,120,0,0" VerticalAlignment="Top" GroupName="Gender"/>
+        <RadioButton x:Name="radioButton1" Content="Female" HorizontalAlignment="Left" Margin="173,135,0,0" VerticalAlignment="Top" GroupName="Gender"/>
+        <Button x:Name="button" Content="Generate" HorizontalAlignment="Left" Margin="553,352,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" IsEnabled="False"/>
+        <Label x:Name="label" Content="Gender:&#xD;&#xA;" HorizontalAlignment="Left" Margin="164,95,0,0" VerticalAlignment="Top" Height="25" Width="60"/>
+        <Label x:Name="label1" Content="Race:" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Class:" HorizontalAlignment="Left" Margin="279,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.272,-0.115"/>
+        <Image x:Name="image" Source="pathfindercover.jpeg" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="label3" Content="Pathfinder Character Creator" HorizontalAlignment="Left" Margin="158,10,0,0" VerticalAlignment="Top" Width="379" Height="49" FontSize="26.667"/>
+        <Label x:Name="label4" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Alignment:" HorizontalAlignment="Left" Margin="271,94,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton2" Content="Lawful" GroupName="Align1" HorizontalAlignment="Left" Margin="285,120,0,0" VerticalAlignment="Top" Click="radioButton2_Click"/>
+        <RadioButton x:Name="radioButton3" Content="Neutral" GroupName="Align1" HorizontalAlignment="Left" Margin="285,135,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton4" Content="Chaotic" GroupName="Align1" HorizontalAlignment="Left" Margin="285,150,0,0" VerticalAlignment="Top" Click="radioButton4_Click"/>
+        <RadioButton x:Name="radioButton5" Content="Good" GroupName="Align2" HorizontalAlignment="Left" Margin="380,120,0,0" VerticalAlignment="Top" Click="radioButton5_Click"/>
+        <RadioButton x:Name="radioButton6" Content="Neutral" GroupName="Align2" HorizontalAlignment="Left" Margin="380,135,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton7" Content="Evil" GroupName="Align2" HorizontalAlignment="Left" Margin="380,150,0,0" VerticalAlignment="Top" Click="radioButton7_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="208,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <Label x:Name="label6" Content="Name:" HorizontalAlignment="Left" Margin="164,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Archetype:" HorizontalAlignment="Left" Margin="443,190,0,0" VerticalAlignment="Top" Width="69"/>
+        <ComboBox x:Name="archBox" HorizontalAlignment="Left" Margin="508,194,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="100" Margin="459,85,0,0" TextWrapping="Wrap" Text="*Note: Some classes cannot have certain alignments, or must be one specific alignment. Pay attention to if your alignment changes when you select your class!" VerticalAlignment="Top" Width="169" BorderThickness="0" />
+        <CheckBox x:Name="checkBox" Content="Finalize" HorizontalAlignment="Left" Margin="478,355,0,0" VerticalAlignment="Top" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+    </Grid>
+</Window>

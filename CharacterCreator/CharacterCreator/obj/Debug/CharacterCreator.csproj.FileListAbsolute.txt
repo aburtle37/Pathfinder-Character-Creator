@@ -1,0 +1,17 @@
+C:\Users\Dikbuyt\Desktop\School work\Windowing Systems\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe.config
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe.config
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.exe
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\bin\Debug\CharacterCreator.pdb
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csprojResolveAssemblyReference.cache
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\MainWindow.g.cs
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\Window1.g.cs
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\App.g.cs
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator_MarkupCompile.cache
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator_MarkupCompile.lref
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\MainWindow.baml
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\Window1.baml
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.g.resources
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.Properties.Resources.resources
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.csproj.GenerateResource.Cache
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.exe
+C:\Users\Dikbuyt\Desktop\CharacterCreator\CharacterCreator\obj\Debug\CharacterCreator.pdb
